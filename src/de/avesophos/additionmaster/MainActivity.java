@@ -1,4 +1,4 @@
-package com.uberspot.a2048;
+package de.avesophos.additionmaster;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -82,7 +82,7 @@ public class MainActivity extends Activity {
 		if (savedInstanceState != null) {
 			mWebView.restoreState(savedInstanceState);
 	    } else {
-	    	mWebView.loadUrl("file:///android_asset/2048/index.html");
+	    	mWebView.loadUrl("file:///android_asset/Addition-Master/index.html");
 	    }
 
 		Toast.makeText(getApplication(),
